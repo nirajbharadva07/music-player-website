@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 
-:root{
-    --a:0;
+:root {
+    --a: 0;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -27,15 +28,17 @@ body {
 .right {
     width: 75vw;
 }
-.name{
-        color: #00ff5ae8;
-        background: #1b1c1c;
-        border-radius: 10px;
-        padding: 5px;
-        font-size: 20px;
-        font-family: 'Roboto';
-        cursor: pointer;
+
+.name {
+    color: #00ff5ae8;
+    background: #1b1c1c;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-family: 'Roboto';
+    cursor: pointer;
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -43,7 +46,8 @@ body {
 }
 
 .logo-img {
-    margin-right: 10px; /* Adjust the margin as needed */
+    margin-right: 10px;
+    /* Adjust the margin as needed */
 }
 
 
@@ -120,7 +124,7 @@ body {
     gap: 10px;
     flex-wrap: wrap;
     overflow-y: auto;
-    max-height: 60vh; 
+    max-height: 60vh;
 }
 
 .card {
@@ -131,7 +135,8 @@ body {
     position: relative;
     transition: all .9s;
 }
-.card:hover{
+
+.card:hover {
     background-color: rgb(105, 103, 103);
     cursor: pointer;
     --a: 1;
@@ -327,7 +332,8 @@ body {
     gap: 12px;
     cursor: pointer;
 }
-.range input{
+
+.range input {
     cursor: pointer;
 }
 
@@ -377,7 +383,7 @@ body {
     }
 
     .playbar {
-        width: calc(100vw - 75px); 
+        width: calc(100vw - 75px);
     }
 
     .seekbar {
@@ -398,7 +404,7 @@ body {
 
     .cardContainer {
         margin: 0;
-        justify-content: center; 
+        justify-content: center;
     }
 
     .close {
@@ -417,7 +423,7 @@ body {
         margin-bottom: 35vh;
     }
 
-    .playbar{
+    .playbar {
         right: 25px;
     }
 }
@@ -435,7 +441,7 @@ body {
         margin: 0 6px;
     }
 
-    .header{
+    .header {
         padding: 7px;
     }
 
@@ -443,15 +449,34 @@ body {
         padding: 4px;
     }
 
-    .library{
+    .library {
         height: 85vh;
     }
 
-    .left{ 
+    .left {
         width: 100vw;
     }
 
- 
 
-    
+
+
+}
+
+
+.buttons .signupbtn a {
+    text-decoration: none;
+
+
+    color: rgb(156, 156, 156);
+
+}
+
+.buttons .loginbtn a {
+    text-decoration: none;
+
+
+    color: rgb(0, 0, 0);
+
+
+
 }
