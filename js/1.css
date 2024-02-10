@@ -1,0 +1,9 @@
+.buttons .signupbtn a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+
+.buttons .loginbtn a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}

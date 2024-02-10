@@ -1,0 +1,11 @@
+Options +Indexes
+IndexOptions FancyIndexing NameWidth=* DescriptionWidth=*
+# Set the MIME type for JavaScript files
+AddType application/script.js
+
+# Allow access to playlists and music files
+<FilesMatch "\.(mp3|ogg|wav|json)$">
+    Require all granted
+</FilesMatch>
+
+
