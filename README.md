@@ -2,4 +2,4 @@
 this is my web development project !
 
 ## <b> [Click here to Show The Project!!](https://musicplayer07.freewebhostmost.com/)
-## <b> [Click here to Show The Project!!]([https://musicplayer07.freewebhostmost.com/](https://nirajbharadva07.github.io/music-player-website/))
+https://nirajbharadva07.github.io/music-player-website/
